@@ -8,3 +8,12 @@ env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
   
 archive: true
+notifications:
+  email:
+     recipients:
+        - vidya@shippable.com
+        - buildsampletest@gmail.com
+     on_success: always
+     on_failure: always
+
+    
