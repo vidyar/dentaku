@@ -5,7 +5,7 @@ rvm:
   - "1.9.3"
   
 env:
-  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+  - COVERAGE_REPORTS=shippable/codecoverage
   
 archive: true
 notifications:
