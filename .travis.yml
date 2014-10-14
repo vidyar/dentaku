@@ -8,6 +8,8 @@ env:
   - COVERAGE_REPORTS=shippable/codecoverage
   
 archive: true
+after_script:
+  - cp README.md ./shippable/codecoverage
 notifications:
   email:
      recipients:
