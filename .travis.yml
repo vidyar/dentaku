@@ -1,4 +1,4 @@
-language: erlang
+language: erland
 
 rvm:
   - "1.9.3"
