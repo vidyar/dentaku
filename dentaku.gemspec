@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rake')
   s.add_development_dependency('rspec')
   s.add_development_dependency('simplecov')
-   s.add_development_dependency('ci_reporter')
+  s.add_development_dependency('ci_reporter')
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
