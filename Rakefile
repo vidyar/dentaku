@@ -11,5 +11,5 @@ task :spec do
 end
 
 desc "Default: run specs."
-task :default => :spec
+task :default => [:spec]
 #RSpec::Core::RakeTask.new(:spec => ["ci:setup:rspec"])
