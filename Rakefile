@@ -1,6 +1,6 @@
 require 'bundler/gem_tasks'
 require 'rspec/core/rake_task'
-require 'ci/reporter/rake/rspec' 
+#require 'ci/reporter/rake/rspec' 
 
 desc "Run specs"
 task :spec do
