@@ -23,4 +23,4 @@ notifications:
      on_failure: always
 
     
-build_image: shippable/minv2
+build_image: shippable/minv2:beta
