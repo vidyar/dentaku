@@ -1,11 +1,9 @@
 language: ruby
 
-
-
 rvm:
   - "1.9.3"
   
-env:
+env
   global:
     - COVERAGE_REPORTS=shippable/codecoverage CI_REPORTS=shippable/testresults
     - secure: M8FxjfO3D4OJ2vhkT6eLJeoLfgLEhsFxwxo69IK6iFdPLBIG/gtV+iYXXxzzbqFgjV31lHXCh3uh3CRunb5o5TDzoIwZUO1fYvJwL5hCLNSdq9REXMTEkjbsLJzZh1zUCIlOgiExi3UMN2zfQ4OQlBoFaFzSjvIkFEjAhKbvCE46LxkN9HQvNqwS1gzpihy8zBUzyEq9PrcDqYagB5f9fX5D2ktmjdxuhtdEWvjCx87iGZYmPS76qqMjLCTChxD5ciywayVmQw+Yevm5WaaQFywQxST954Q0dU1MJ2zAbGDeIEZ8PuT/x/3uLuclZTnpAnF0Ho6OXne7I4yKHnZAD
@@ -24,4 +22,4 @@ notifications:
      on_failure: always
 
     
-build_image: shippable/minv2
+build_image:  shippable/minv2
