@@ -13,6 +13,9 @@ archive: true
 after_script:
   - cp README.md ./shippable/codecoverage
 
+script:
+  - bundle exec rake test
+  
 notifications:
   email:
      recipients:
