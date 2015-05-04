@@ -3,6 +3,7 @@ language: ruby
 rvm:
   - "1.9.3"
   
+  
 env:
   global:
     - COVERAGE_REPORTS=shippable/codecoverage CI_REPORTS=shippable/testresults
